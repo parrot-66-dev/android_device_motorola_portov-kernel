@@ -659,6 +659,7 @@ alias usb:v0403pDA71d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403pDA72d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403pDA73d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403pDA74d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
+alias usb:v23F2p0003d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v1781p0C30d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v1A28p6010d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403p9E50d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
@@ -903,6 +904,7 @@ alias usb:v09FBp602Dd*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
 alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in01* ftdi_sio
 alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
 alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in03* ftdi_sio
+alias usb:v0403pF458d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias MHI_DTR mhi_dev_dtr
 alias usb:v0BDBp*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1BC7p0036d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
@@ -913,6 +915,7 @@ alias usb:v0930p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v12D1p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1519p0443d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1546p1010d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
+alias usb:v8087p095Ad*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v17E9p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias mhi:IPCR qrtr_mhi
@@ -1152,11 +1155,13 @@ alias usb:v17EFp7205d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp720Cd*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp7214d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp721Ed*dc*dsc*dp*ic*isc*ip*in* r8152
+alias usb:v17EFpA359d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFpA387d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v13B1p0041d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v0955p09FFd*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v2357p0601d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v2001pB301d*dc*dsc*dp*ic*isc*ip*in* r8152
+alias usb:v413CpB097d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v0B05p1976d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias amba:d???BB961 coresight_tmc
 alias amba:d???BB9E8 coresight_tmc
@@ -1218,6 +1223,7 @@ alias usb:v0B95p7E2Bd*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v0B95p172Ad*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v066Bp20F9d*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v33F7p0004d*dc*dsc*dp*ic*isc*ip*in* asix
+alias usb:v1D2Ap0801d*dc*dsc*dp*ic*isc*ip*in* asix
 alias of:N*T*Cqcom,cpufreq-hw qcom_cpufreq_hw
 alias of:N*T*Cqcom,cpufreq-hwC* qcom_cpufreq_hw
 alias of:N*T*Cqcom,cpufreq-epss qcom_cpufreq_hw
@@ -1484,6 +1490,7 @@ alias usb:v16D5p650Ad*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v12D1p14ACd*dc*dsc*dp*ic*isc*ip*in01* cdc_ether
 alias usb:v0BDAp8153d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v17EFp721Ed*dc*dsc*dp*ic02isc06ip00in* cdc_ether
+alias usb:v17EFpA359d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v2ECApC101d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v0B95p2790d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v0B95p2791d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
@@ -1521,6 +1528,7 @@ alias virtio:d00000013v* vmw_vsock_virtio_transport
 alias char-major-21-* sg
 alias usb:v0BDAp8153d*dc*dsc*dp*ic02isc06ip00in* r8153_ecm
 alias usb:v17EFp721Ed*dc*dsc*dp*ic02isc06ip00in* r8153_ecm
+alias usb:v17EFpA359d*dc*dsc*dp*ic02isc06ip00in* r8153_ecm
 alias usbfunc:usbnet moto_f_usbnet
 alias usbfunc:cser usb_f_cdev
 alias net-pf-36 ieee802154_socket

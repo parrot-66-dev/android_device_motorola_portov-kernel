@@ -631,6 +631,7 @@ alias usb:v0403pDA71d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403pDA72d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403pDA73d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403pDA74d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
+alias usb:v23F2p0003d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v1781p0C30d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v1A28p6010d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0403p9E50d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
@@ -875,6 +876,7 @@ alias usb:v09FBp602Dd*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
 alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in01* ftdi_sio
 alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in02* ftdi_sio
 alias usb:v09FBp602Ed*dc*dsc*dp*ic*isc*ip*in03* ftdi_sio
+alias usb:v0403pF458d*dc*dsc*dp*ic*isc*ip*in* ftdi_sio
 alias usb:v0BDBp*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1BC7p0036d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v413Cp81BBd*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
@@ -884,6 +886,7 @@ alias usb:v0930p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v12D1p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1519p0443d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v1546p1010d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
+alias usb:v8087p095Ad*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v17E9p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Dip00in* cdc_ncm
 alias char-major-108-0 ppp_generic
@@ -918,11 +921,13 @@ alias usb:v17EFp7205d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp720Cd*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp7214d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp721Ed*dc*dsc*dp*ic*isc*ip*in* r8152
+alias usb:v17EFpA359d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFpA387d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v13B1p0041d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v0955p09FFd*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v2357p0601d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v2001pB301d*dc*dsc*dp*ic*isc*ip*in* r8152
+alias usb:v413CpB097d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v0B05p1976d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias net-pf-31 bluetooth
 alias usb:v077Bp2226d*dc*dsc*dp*ic*isc*ip*in* asix
@@ -963,6 +968,7 @@ alias usb:v0B95p7E2Bd*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v0B95p172Ad*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v066Bp20F9d*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v33F7p0004d*dc*dsc*dp*ic*isc*ip*in* asix
+alias usb:v1D2Ap0801d*dc*dsc*dp*ic*isc*ip*in* asix
 alias virtio:d00000002v* virtio_blk
 alias rtnl-link-can can_dev
 alias char-major-10-242 rfkill
@@ -1006,6 +1012,7 @@ alias usb:v16D5p650Ad*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v12D1p14ACd*dc*dsc*dp*ic*isc*ip*in01* cdc_ether
 alias usb:v0BDAp8153d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v17EFp721Ed*dc*dsc*dp*ic02isc06ip00in* cdc_ether
+alias usb:v17EFpA359d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v2ECApC101d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v0B95p2790d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v0B95p2791d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
@@ -1034,6 +1041,7 @@ alias usb:v12D1p*d*dc*dsc*dp*ic02isc06ipFFin* cdc_ether
 alias virtio:d00000013v* vmw_vsock_virtio_transport
 alias usb:v0BDAp8153d*dc*dsc*dp*ic02isc06ip00in* r8153_ecm
 alias usb:v17EFp721Ed*dc*dsc*dp*ic02isc06ip00in* r8153_ecm
+alias usb:v17EFpA359d*dc*dsc*dp*ic02isc06ip00in* r8153_ecm
 alias net-pf-36 ieee802154_socket
 alias tty-ldisc-15 hci_uart
 alias of:N*T*Cti,cc2560 hci_uart
